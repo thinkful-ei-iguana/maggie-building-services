@@ -1,0 +1,25 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES 
+('A beautiful day', now() - '10 days'::INTERVAL, 'A really great day'),
+('Dwight''s revenge', now(), 'Sneaky tactics'),
+('Christmas music', now() + '10 days'::INTERVAL, 'All day, every day until the end of the month'),
+('Matto''s thought-os', now(), 'Musings of a lazy kitty'),
+('HONK! Festival', now() - '40 days'::INTERVAL, 'Comes but once a year'),
+('So many articles', now(), 'Creating seed data is tedious'),
+('Maybe I''ll do some copying', now(), 'Just to make it quicker'),
+('Copy 1', now() - '5 days'::INTERVAL, 'Unoriginal content'),
+('Copy 3', now(), 'Unoriginal content'),
+('Copy 10', now() - '1 day'::INTERVAL, 'Unoriginal content'),
+('Copy 1000', now(), 'Unoriginal content'),
+('Copy 24', now() - '53 days'::INTERVAL, 'Unoriginal content'),
+('Copy 532', now() - '2 days'::INTERVAL, 'Unoriginal content'),
+('Copy 44', now() - '4 days'::INTERVAL, 'Unoriginal content'),
+('Copy 395', now() - '8 days'::INTERVAL, 'Unoriginal content'),
+('Copy 129848.2', now() - '5 days'::INTERVAL, 'Unoriginal content'),
+('Copy 288', now() - '3 days'::INTERVAL, 'Unoriginal content'),
+('Copy 199', now() - '99 days'::INTERVAL, 'Unoriginal content'),
+('Copy 59', now() - '2 days'::INTERVAL, 'Unoriginal content'),
+('Copy 87', now() - '4 days'::INTERVAL, 'Unoriginal content'),
+('Copy 0', now() - '1 day'::INTERVAL, 'Unoriginal content'),
+('The end', now(), 'Finale')
+;
